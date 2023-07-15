@@ -1,0 +1,187 @@
+#logo{
+    color:rgb(226, 43, 73);
+    text-decoration: solid;
+    text-align: center;
+    margin-left: 400px;
+    border:1px solid rgb(18, 37, 250);
+    border-width: 5px;
+    text-size-adjust: 200px,100px;
+    font-style: italic;
+    font-size: 50px;
+    height: 60px;
+    background-image :url(grass.jpg.jpg);
+    background-size: cover;
+    border-style: groove;
+
+}
+*{
+    padding:0;
+    margin-top:0px;
+    background-image:url(wall.jpg.jpg) ;
+    background-size: cover;
+}
+button{
+    background-image: url(s.jpg.jpg);
+    background-size:cover;
+    text-decoration-color:red;
+    font-style: bold;
+    
+}
+a{
+    margin:20px;
+    font-size: 20px;
+    height: fit-content;
+    background-color:yellow;
+    
+}
+div{
+    height:50px;
+    background-color: black;
+    display: flex;
+    border-color:black;
+    border-style:double;
+    border-width: 15px;
+    padding: 10px;
+    
+}
+#box2{
+    background-image: url(n.jpg.jpg);
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    width: 400px;
+    flex-direction: row;
+    position: relative;
+    left:100px;
+    margin-top: 100px;
+    border-color: bisque;
+    border-style: double;
+    border-width: 50px;
+    font-size: 100px;
+    transition: all 2s ease-in;
+}
+#box3{
+    background-image:url(m.jpg.jpg);
+    background-size: cover;
+    display: flex;
+    height:500px;
+    width:400px;
+    flex-direction: row;
+    position: relative;
+    left:100px;
+    margin-top: 100px;
+    border-color: bisque;
+    border-style: double;
+    border-width: 50px;
+    font-size: 100px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 2s ease-in;
+}
+#nav{
+ width: 500px;
+ height:100;
+    background-color:rgba(250, 235, 215, 0.945);
+    margin-top:10px;
+}
+button{
+    margin-top: 10px;
+}
+#box1{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    background-image: url(t.jpg.jpg);
+    background-size: cover;
+    align-items: row;
+    margin-top: 100px;
+    border-color: bisque;
+    border-style: double;
+    border-width: 50px;
+    font-size: 100px;
+    position: relative;
+    transition:all 2s ease-in
+}
+#box5{
+    height: 500px;
+    width:400px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    border-color: bisque;
+    border-style: double;
+    border-width: 50px;
+    font-size: 100px;
+    transition:all 2s ease-in-out;
+    background-image: url(g.jpg.jpg);
+    background-size: cover;
+}
+#box6{
+    height: 500px;
+    width:400px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    border-color: bisque;
+    border-style: double;
+    border-width: 50px;
+    font-size: 100px;
+    background-image:url(o.jpg.jpg);
+    background-size: cover;
+    position:relative;
+    left:100px;
+    transition:all 2s ease-out ;
+}
+div{
+    display:flex;
+    flex-wrap:wrap;
+}
+#box1:hover{
+    transform:translate(200px,80px);
+}
+#box6:hover{
+    transform: translate(-100px,-900px);
+}
+#box3:hover{
+    transform:translate(100px,-50px);
+}
+#box2:hover{
+    transform: translate(50px,50px);
+}
+#box5:hover{
+    transform: translateX(200px);
+}
+.list{
+    background-color:rgba(0, 0, 0, 0.164);
+    text-decoration-color: brown;
+    display:flex;
+    position: relative;
+    margin-top:150%;
+    padding:50px;
+    justify-content: space-evenly;
+    font-size: 40px;
+    background-color: black;
+}
+li{
+    list-style-type: none;
+    background-color:black;
+}
+#box4{
+    background-image:url(w.jpg.jpg);
+    background-size: cover;
+    display: flex;
+    height:500px;
+    width:400px;
+    flex-direction: row;
+    position: relative;
+    left:100px;
+    margin-top: 100px;
+    border-color: bisque;
+    border-style: double;
+    border-width: 50px;
+    font-size: 100px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition:all 2s ease-in-out;
+}
+#box4:hover{
+    transform:translate(100px,-50px);
+}
